@@ -1,66 +1,180 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# 🚀 Md. Habibur Rahman - Web Design & Development Portfolio
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+A premium, modern, glassmorphic portfolio website engineered for **Md. Habibur Rahman** (Web Designer & Full Stack Web Developer). Built with clean semantic **HTML5**, **CSS3 (Glassmorphism & Electric Blue/Cyan Theme)**, and **Vanilla JavaScript**, optimized for direct deployment to **GitHub Pages** without requiring any backend or build steps.
 
-## About Laravel
+---
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## 🌟 Features Overview
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+- **Aesthetic:** Dark Navy (`#07111F`) background with frosted glass cards, electric blue (`#168BFF`) and cyan (`#50E6FF`) accents, subtle borders, and smooth backdrop blurs.
+- **Hero Section:** Features your authentic photograph framed in a glassmorphic card with glowing animated rings, floating tech badges, typewriter animations, and instant CTA buttons.
+- **Interactive FX:** Cursor spotlight ambient lighting, 3D card tilt effects on hover, fluid scroll reveals, and custom accessible cursor follower.
+- **Dynamic Content Engine:** All services, skills, portfolio projects, and personal data are loaded and completely editable in `assets/js/portfolio-data.js`.
+- **Demo Portfolio:** Showcases 6 demonstration projects with category filters (E-commerce, Business Websites, Landing Pages, Web Development), tech tags, live demo links, and source code links.
+- **Functional Contact Links:** Form validation with direct email mailto client trigger and instant pre-filled WhatsApp link (`+8801954150038`).
+- **Local Content Customizer:** Built-in settings drawer (PIN: `habib2026`) that allows browser-based live preview editing and one-click JSON/JS export.
+- **100% Mobile Responsive:** Fluid layouts from 320px mobile screens to large desktop monitors.
+- **Zero Server Overhead:** 100% static, fast-loading, SEO-ready with Open Graph tags, `sitemap.xml`, and `robots.txt`.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+---
 
-## Learning Laravel
+## 📁 Repository Structure
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+```text
+habibur-portfolio/
+├── index.html                  # Main website landing page (Must be in root)
+├── assets/
+│   ├── css/
+│   │   └── style.css           # Glassmorphism design system & responsive styling
+│   ├── js/
+│   │   ├── main.js             # Interactions, animations, and render logic
+│   │   └── portfolio-data.js   # Single file to edit projects, bio, skills & services
+│   └── images/
+│       ├── habibur-rahman.png  # Your profile photograph
+│       ├── about.jpg           # About section image
+│       ├── project1.jpg        # Demo project thumbnail (E-commerce)
+│       ├── project2.jpg        # Demo project thumbnail (Startup)
+│       ├── project3.jpg        # Demo project thumbnail (Hotel)
+│       ├── project4.jpg        # Demo project thumbnail (Consulting)
+│       ├── project5.jpg        # Demo project thumbnail (Digital App)
+│       └── project6.jpg        # Demo project thumbnail (Travel)
+├── favicon.svg                 # Electric blue & cyan vector favicon
+├── robots.txt                  # Search engine crawler instructions
+├── sitemap.xml                 # Search engine XML sitemap
+└── README.md                   # Deployment and editing guide
+```
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+> **Important Note:** All asset links use relative paths (e.g. `assets/css/style.css`, not `/assets/css/style.css`), ensuring the website displays seamlessly whether hosted on a custom domain or a GitHub Pages subfolder.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+---
 
-## Laravel Sponsors
+## 🌐 Step-by-Step GitHub Pages Deployment Guide
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+Deploying this portfolio to GitHub Pages is 100% free, fast, and requires no command-line knowledge if you prefer using the GitHub web interface.
 
-### Premium Partners
+### Step 1: Create a GitHub Account
+1. Visit [https://github.com/](https://github.com/).
+2. If you don't have an account, click **Sign up** and follow the instructions to create your free account.
+3. If you already have an account, click **Sign in**.
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+### Step 2: Create a New Public Repository
+1. In the top-right corner of GitHub, click the `+` icon and choose **New repository**.
+2. Set the **Repository name** to:
+   ```
+   habibur-portfolio
+   ```
+3. Set the visibility to **Public** (GitHub Pages requires public repositories on free accounts).
+4. Leave *Add a README file* unchecked (since we already have a complete `README.md`).
+5. Click **Create repository**.
 
-## Contributing
+### Step 3: Upload All Project Files
+1. On the new repository page, click the link that says **uploading an existing file** (or click **Add file** → **Upload files**).
+2. Drag and drop all the files and folders from this folder:
+   - `index.html`
+   - `assets/` (with `css`, `js`, and `images` inside)
+   - `favicon.svg`
+   - `robots.txt`
+   - `sitemap.xml`
+   - `README.md`
+3. Verify that `index.html` is located directly in the root directory (not inside a subfolder).
+4. In the commit message box, type: `Initial commit: Habibur Rahman portfolio`.
+5. Click the green **Commit changes** button.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+### Step 4: Configure GitHub Pages
+1. Go to the repository's **Settings** tab (the gear icon near the top right).
+2. In the left navigation sidebar under the **Code and automation** section, click **Pages**.
+3. Under the **Build and deployment** heading:
+   - **Source**: Select `Deploy from a branch`.
+   - **Branch**: Select `main` (or `master` if that was your default branch).
+   - **Folder**: Ensure `/ (root)` is selected.
+4. Click **Save**.
 
-## Code of Conduct
+### Step 5: Wait for Deployment and View Your Live Site
+1. GitHub will take 1 to 2 minutes to publish the static site.
+2. Refresh the **Pages** page. You will see a banner at the top saying:
+   > *"Your site is live at https://YOUR-USERNAME.github.io/habibur-portfolio/"*
+3. The expected URL structure is:
+   ```
+   https://YOUR-USERNAME.github.io/habibur-portfolio/
+   ```
+   *(Replace `YOUR-USERNAME` with your actual GitHub username).*
+4. Click **Visit site** to view your live, published portfolio!
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+---
 
-## Security Vulnerabilities
+## ✏️ How to Customize and Update Website Content
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+You do **not** need to touch complex HTML to update your projects, skills, or contact info. Everything is controlled from:
 
-## License
+```
+assets/js/portfolio-data.js
+```
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+### 1. Updating Projects
+Open `assets/js/portfolio-data.js` and locate the `projects: [...]` array. Each project item looks like this:
+
+```javascript
+{
+  id: "shop-ui",
+  title: "Your Project Title",
+  category: "ecommerce",          // Options: "ecommerce", "business", "landing", "webdev"
+  categoryLabel: "E-commerce",
+  image: "assets/images/project1.jpg",
+  isDemo: true,                   // Change to false if it's a real completed client project
+  summary: "Brief 1-2 sentence overview of what the project does.",
+  tags: ["HTML5", "CSS3", "JavaScript"],
+  demoUrl: "https://your-live-demo-link.com",
+  codeUrl: "https://github.com/your-username/project-repo",
+  featured: true
+}
+```
+
+### 2. Updating Contact and Personal Information
+In `assets/js/portfolio-data.js`, update the `personalInfo` object:
+- `fullName`: Your name
+- `professionalTitle`: Your title
+- `whatsappNumber`: Formatted WhatsApp number (e.g. `+8801954150038`)
+- `whatsappClean`: Digits only for wa.me URL (e.g. `8801954150038`)
+- `emailAddress`: Your email
+- `websiteUrl`: Your domain link
+
+### 3. Replacing Profile or Project Images
+- Profile photograph: Replace `assets/images/habibur-rahman.png` with any new high-resolution photo. Keep the same filename to update automatically, or update the filename path in `portfolio-data.js` and `index.html`.
+- Project screenshots: Place your images inside `assets/images/` and update the `image` property in `portfolio-data.js`.
+
+### 4. Updating GitHub Repository After Making Edits
+Whenever you edit any file locally:
+1. Go to your repository on GitHub.
+2. Click on the file you modified (e.g. `assets/js/portfolio-data.js`), click the pencil icon (Edit), paste your changes, and commit.
+3. OR use Git from your computer:
+   ```bash
+   git add .
+   git commit -m "Update portfolio projects and contact details"
+   git push origin main
+   ```
+4. GitHub Pages will automatically redeploy the new version within 60 seconds!
+
+---
+
+## 🛠 Local Development & Testing
+
+Since this is a 100% static website, you can run and test it locally using any standard method:
+
+1. **Directly in Browser:** Double-click `index.html` to open it in Chrome, Edge, Firefox, or Safari.
+2. **VS Code Live Server:** Right-click `index.html` and click **Open with Live Server**.
+3. **Local HTTP Server (Python):**
+   ```bash
+   python -m http.server 8000
+   ```
+   Open `http://localhost:8000` in your browser.
+4. **Local HTTP Server (Node.js):**
+   ```bash
+   npx serve .
+   ```
+
+---
+
+## 📄 License & Credits
+
+- Designed & Developed for **Md. Habibur Rahman**.
+- Built with standard open-source web technologies: HTML5, CSS3, Vanilla JavaScript, Bootstrap 5, and Bootstrap Icons.
